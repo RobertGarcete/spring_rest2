@@ -19,6 +19,8 @@ public class Comentario extends General{
 	@ManyToOne
 	private Post post; //Aplicación de asociación
 	
+	
+	//cuando el objeto es importante, no se agrega anotaciones aqui.
 	@ManyToOne
 	private Suscrito suscrito;
 
